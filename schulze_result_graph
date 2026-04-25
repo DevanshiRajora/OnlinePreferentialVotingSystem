@@ -1,0 +1,9 @@
+// Schulze Winner Determination
+digraph Schulze_Graph {
+	A [label=A fillcolor=gold fontcolor=black style=filled]
+	B [label=B]
+	C [label=C]
+	A -> B [label=3 color=blue dir=forward penwidth=2]
+	A -> C [label=3 color=blue dir=forward penwidth=2]
+	C -> B [label=4 color=blue dir=forward penwidth=2]
+}
